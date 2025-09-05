@@ -1,13 +1,14 @@
 # Makefile
 
 GHDL=/usr/bin/ghdl
+GHDL=ghdl
 GTKWAVE=/usr/bin/gtkwave
 
 
 
 GHDL_ANALYSE=$(GHDL) -a $(GHDL_FLAGS)
 GHDL_ELABORATE=$(GHDL) -e $(GHDL_FLAGS)
-GHDL_SIMULATE=$(GHDL) -r $(GHDL_FLAGS) 
+GHDL_SIMULATE=$(GHDL) -r $(GHDL_FLAGS)
 
 
 
