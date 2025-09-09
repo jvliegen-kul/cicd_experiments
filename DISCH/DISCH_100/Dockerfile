@@ -1,8 +1,7 @@
-FROM ghdl/ghdl:6.0.0-dev-gcc-ubuntu-24.04
+FROM ghdl/ghdl:bullseye-mcode
 
 COPY src /DISCH_exercise/
 COPY tests /DISCH_exercise/
-COPY tools /DISCH_exercise/
 COPY sim.sh /DISCH_exercise/
 
 WORKDIR /DISCH_exercise
