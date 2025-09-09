@@ -1,8 +1,8 @@
 FROM ghdl/ghdl:bullseye-mcode
 
-COPY src /DISCH_exercise/
-COPY tests /DISCH_exercise/
-COPY sim.sh /DISCH_exercise/
+COPY DISCH/DISCH_100/src /DISCH_exercise/
+COPY DISCH/DISCH_100/tests /DISCH_exercise/
+COPY DISCH/DISCH_100/sim.sh /DISCH_exercise/
 
 WORKDIR /DISCH_exercise
 
