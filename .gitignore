@@ -2,3 +2,4 @@ software/software
 software/build/*.o
 
 DISCH/DISCH*/*.cf
+DISCH/DISCH*/*.vcd
